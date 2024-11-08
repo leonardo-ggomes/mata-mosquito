@@ -122,3 +122,13 @@ li{
     75% { transform: scale(0.95, 1.05); }
   }
   
+
+  #nivel{
+    color: #63ccca;
+    background-color: #ff000000;
+    font-family: 'Samurai';
+    border: none;
+    outline: none;
+    font-size: 22px;
+    cursor: pointer;
+  }

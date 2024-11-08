@@ -20,10 +20,16 @@
             <nav>
                 <ul>
                     <li class="active">
-                        <a class="nav-link" href="http://pudim.com.br">Início</a>
+                        <a class="nav-link" href="index.html">Início</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="http://pudim.com.br">Sobre Nós</a>
+                        <a class="nav-link" href="#">
+                            <select name="nivel" id="nivel">
+                                <option value="1">Chuck Norris</option>
+                                <option value="1.5">Estagiário</option>
+                                <option value="2">Baby</option>
+                            </select>
+                        </a>
                     </li>
                 </ul>
             </nav>
@@ -37,14 +43,15 @@
                     Vamos eliminar juntos o mosquito
                     mais <br> sem vergonha do planeta.
                 </p>
-            </div>
+            </div>           
             <div>
-                <a class="bounce2" id="btn-jogar" href="jogo.html">Jogar</a>
+                <a class="bounce2" id="btn-jogar" onclick="jogar()">Jogar</a>
             </div>
         </main>
         
         <footer></footer>
 
     </div> 
+    <script src="js/index.js"></script>
 </body>
 </html>
