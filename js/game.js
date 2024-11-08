@@ -7,7 +7,7 @@ let vidas = 3
 let body = document.querySelector("body")
 
 let img = document.createElement("img")
-img.src = "../imagens/mosquito.png"
+img.src = "imagens/mosquito.png"
 img.style.position = "absolute"
 
 function alteraTamanhoMosquito(){
