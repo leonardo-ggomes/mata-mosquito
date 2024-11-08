@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../imagens/teste.png);
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-gorro{
+    width: 60px;
+}
+
+#hud{
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
+
