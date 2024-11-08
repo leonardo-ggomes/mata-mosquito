@@ -22,3 +22,10 @@ No Jogo de Natal, você enfrentará desafios e missões temáticas de Natal, com
 1. Clone o repositório para sua máquina:
    ```bash
    git clone https://github.com/leonardo-ggomes/mata-mosquito.git
+
+##  📜 Como Jogar
+- Objetivo: Colete o máximo de presentes possível e evite obstáculos para ganhar pontos.
+- Controles:
+- Teclas de Seta: Movimentar o personagem.
+- Espaço: Ações especiais (por exemplo, pular).
+- Pontuação: Acumule pontos coletando itens e completando desafios sem colidir com obstáculos.
