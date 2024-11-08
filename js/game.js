@@ -19,6 +19,10 @@ function geraPosicao(){
     img.style.left = `${x}px`
 }
 
+img.addEventListener("click",function(){
+  alert("Você clicou")
+})
+
 setInterval(function(){
     alteraTamanhoMosquito()
     geraPosicao()
